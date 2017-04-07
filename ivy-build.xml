@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. -->
+	<project basedir="." default="resolve" name="resolve"
+		xmlns:ivy="antlib:org.apache.ivy.ant">
+		<property name="ivy.lib.dir" value="war/WEB-INF/lib/"/>
+		<target name="resolve">
+		<ivy:retrieve />
+		</target>
+		</project>
