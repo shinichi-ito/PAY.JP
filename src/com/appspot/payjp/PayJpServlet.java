@@ -64,6 +64,9 @@ public class PayJpServlet extends HttpServlet {
 		    sb=Subscription.create(subscriptionParams);//プラント顧客を紐づけ
 			
 			
+		    System.out.println("ddddd");
+		    
+		    
 		} catch (CardException e) {
 			  // Since it's a decline, CardException will be caught
 			//  System.out.println("Status is: " + e.getCode());
